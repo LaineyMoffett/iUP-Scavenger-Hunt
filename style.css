@@ -128,7 +128,7 @@ text-align: center;
 }
 
 .contentFour {
-    position: absolute;
+    position: fixed;
     bottom: 10px;
     left: 25px;
   
