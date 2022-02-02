@@ -65,6 +65,7 @@ nav ul a{
     background-color: white;
     box-shadow: none;
     border-color: #F89D2F;
+    padding: 2px 2px;
     
 }
 
@@ -116,3 +117,24 @@ text-align: center;
   margin-top: 0px;
   font-family: Font;
 }
+
+.contentFour p{
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 9;
+    font-weight: bold;
+   cursor: pointer;
+   
+}
+
+.contentFour {
+    position: absolute;
+    bottom: 10px;
+    left: 25px;
+    text-decoration: none;
+    text-align: center;
+}
+
+
+
+
