@@ -4,7 +4,8 @@
 }
 
 .container {
-    background-color: #B1A1ED;
+    
+    background: url(./Untitled\ design\ \(6\).png);
     height: 100vh;
     width: 100%;
     background-position: center;
@@ -69,14 +70,49 @@ nav ul a{
 
 .contentTwo {
     text-align: center;
-    padding-top: 100px;
+    padding-top: 20px;
 }
 
 .contentTwo a {
-    color: white;
+    color: #7C40A9;
     font-family: Font;
     text-decoration: none;
     font-weight: bold;
     font-size: 20px;
     text-decoration:underline #F89D2F;
+   
+}
+
+.contentTwo button {
+    font-family: Font;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: white;
+    box-shadow: none;
+    border-color: #F89D2F;
+    /*padding: 25px 50px;*/
+   
+    width: 217.89px;
+    height: 35px;
+}
+
+.contentTwo p {
+    color: white;
+    font-size: 20px;
+}
+
+/*.timer  {
+    display: flex;
+    font-size: 30px;
+    text-align: center;
+   justify-content: center;
+   
+}*/
+
+
+.timer p {
+text-align: center;
+  font-size: 50px;
+  margin-top: 0px;
+  font-family: Font;
 }

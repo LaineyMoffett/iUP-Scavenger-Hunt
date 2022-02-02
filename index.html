@@ -5,9 +5,20 @@
         <link rel="stylesheet" href="style.css">
         <link class="Font" href="/AbrilFatface-Regular.ttf">
         <link rel="shortcut icon" type="image/x-icon" href="favicon.png" />
+       
+
+        
         
     </head>
+   <!---------------------------- Preventing Text from being copied--->
 
+    <style>
+        html{
+            user-select: none;
+        }
+    </style>
+
+    <!----------------------------Body--->
 <body>
     <div class="container">
     <div class="navbar">
@@ -24,9 +35,7 @@
             College and Career Scavenger Hunt
         </h1>
         <br>
-        <h3>
-            <a href="" target= "_blank">Click here for directions!</a>
-        </h3>
+    
         
     </div>
 <br>
@@ -34,22 +43,70 @@
 
 
     <div class="contentTwo">
-            <a href="" target= "_blank">Wisely’s Wall of Wisdom&nbsp;&nbsp;</a>
-            <a href="" target= "_blank">College Corner&nbsp;&nbsp;</a>
-            <a href="" target= "_blank">College iHoot Articles</a>
+        <p>Ready to begin?</p>
+        <br>
+            <button><a href="https://docs.google.com/document/d/1ojaOMn59uAX42pNI3kReUMTildbRjNaV0JIfg9AQttE/edit?usp=sharing" target= "_blank">Click here for directions!</a></button>&nbsp;&nbsp;
+            <button><a href="" target= "_blank">Start Here!</a></button>
+            <br> <br>
+            <p>Use your time wisely... Time left:</p>
+            <!--<a href="" target= "_blank">College Corner&nbsp;&nbsp;</a>
+            <a href="" target= "_blank">College iHoot Articles</a>-->
 
-    </div>
-
-
-
-
-
-
-
-
-    </div>
+        <!----------------Timer!-->
+        <div class="timer">
+            <!-- Display the countdown timer in an element -->
+    <p id="demo"></p>
     
+    <!----------------------------Timer!--->
+    
+    <script>
+    // Set the date we're counting down to
+    var countDownDate = new Date("Feb 24, 2022 5:00:00 pm CST").getTime();
+    
+    // Update the count down every 1 second
+    var x = setInterval(function() {
+    
+      // Get today's date and time
+      var now = new Date().getTime();
+    
+      // Find the distance between now and the count down date
+      var distance = countDownDate - now;
+    
+      // Time calculations for days, hours, minutes and seconds
+      var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+      var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+      var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    
+      // Display the result in the element with id="demo"
+      document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+      + minutes + "m " + seconds + "s ";
+    
+      // If the count down is finished, write some text
+      if (distance < 0) {
+        clearInterval(x);
+        document.getElementById("demo").innerHTML = "Sorry, time has run out!";
+      }
+    }, 1000);
+    </script>
+    
+        </div>
 
+    </div>
+
+
+
+
+
+
+
+
+    </div>
+
+
+
+
+    
 </body>
 
 
