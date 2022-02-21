@@ -108,3 +108,16 @@ color: white;
     text-decoration: none;
     color: black;
 }
+
+
+.egg {
+    display: flex;
+    justify-content: left;
+
+    }
+    
+    .egg p{
+        font-size: 4px;
+        color: rgba(255, 255, 255, 0.24);
+        cursor: pointer;
+    }
