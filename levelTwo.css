@@ -118,6 +118,6 @@ color: white;
     
     .egg p{
         font-size: 4px;
-        color: rgba(255, 255, 255, 0.123);
+        color: rgba(255, 255, 255, 0.24);
         cursor: pointer;
     }
