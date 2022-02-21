@@ -102,6 +102,7 @@ color: white;
    text-decoration: none;
     background-color: white;
     border-color: #F89D2F;
+    cursor: pointer;
 }
 
 .contentTwo a {
