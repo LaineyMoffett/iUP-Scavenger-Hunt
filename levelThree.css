@@ -75,3 +75,17 @@ nav ul a{
     background-color: white;
     border-color: #F89D2F;
 }
+
+
+
+.egg {
+    display: flex;
+    justify-content: right;
+    padding-top: 20px;
+    }
+    
+    .egg p{
+        font-size: 2px;
+        color: rgba(255, 255, 255, 0.664);
+        cursor: pointer;
+    }
