@@ -113,11 +113,11 @@ color: white;
 .egg {
     display: flex;
     justify-content: left;
-
+    padding-top: 20px;
     }
     
     .egg p{
         font-size: 4px;
-        color: rgba(255, 255, 255, 0.24);
+        color: rgba(255, 255, 255, 0.123);
         cursor: pointer;
     }
