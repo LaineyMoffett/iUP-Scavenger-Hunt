@@ -12,7 +12,7 @@ btnCalcNxtClue.onclick = function (){
           let yes_or_no =  prompt( "Many colleges in ___ have ___ 1st application deadlines. Type 3 to move on to the next clue.")
           if(yes_or_no == 3) {
 
-            let no_no = prompt ("____ of your junior year, it is wise to take the _____. Type 4 to move on to the next clue")
+            let no_no = prompt ("____ of your junior year, it is wise to take the _____ to qualify for merit aid. Type 4 to move on to the next clue")
             if(no_no == 4) {
 
             let yess_no = prompt ("GCISD is a ____ ranking district, and they only rank the _____. Type 5 to move on to the next clue.")
